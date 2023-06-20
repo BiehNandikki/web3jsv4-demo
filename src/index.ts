@@ -65,3 +65,6 @@ const getTokenSupply = async () => {
 getSymbol(); // prints out DAI
 getTokenSupply(); // returns 4416499345433133573878403577n
 
+// showcase the plugin system by creating a plugin that calls a custom rpc_method
+// tutorial https://github.com/web3/web3.js/blob/4.x/tools/web3-plugin-example/src/custom_rpc_methods.ts
+// https://github.com/web3/web3.js/blob/4.x/tools/web3-plugin-example/test/unit/custom_rpc_methods.test.ts#L40
